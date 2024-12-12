@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    background-color: rgb(247, 252, 254);
+}
+
+@font-face {
+    font-family: ip;
+    src: url(../Text/font/Ios\ Kohinoor\ font.ttf);
+}
+
+
+@font-face {
+    font-family: poopins;
+    src: url(../Text/font/Poppins-Regular.ttf);
+}
+.level{
+    padding-left: 5%;
+    padding-top: 10%;
+    font-family: poopins;
+    width: 90%;
+    font-size: clamp(20px,5vw,48px);
+    height: 5rem;
+}
+
+.progress{
+    width: 40%;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.sub{
+    width: 25%;
+    z-index: 1000;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(30, 255, 0);
+}
+
+.ground{
+    padding: 5%;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    height: auto;
+
+}
+
+.bgg{
+    width: 95%;
+    border-radius: 10px;
+    height: auto;
+    padding-bottom: 10%;
+    background-color:aliceblue;
+}
+
+.intro{
+    width: 30%;
+    display: flex;
+    color: rgb(100, 97, 97);
+    font-family: poopins;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    box-shadow: 0px 0px 20px rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 5px;
+    height: 1rem;
+    background-color:rgb(255, 255, 255);
+}
+
+.comment{
+    width:48%;
+    display: flex;
+    color: rgb(100, 97, 97);
+    font-family: poopins;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    box-shadow: 0px 0px 20px rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 5px;
+    height: 1rem;
+    background-color:rgb(255, 255, 255);
+}
+
+.tag{
+    width: 32%;
+    display: flex;
+    color: rgb(100, 97, 97);
+    font-family: poopins;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    box-shadow: 0px 0px 20px rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 5px;
+    height: 1rem;
+    background-color:rgb(255, 255, 255);
+}
+
+.file{
+    width: 33%;
+    display: flex;
+    color: rgb(100, 97, 97);
+    font-family: poopins;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    box-shadow: 0px 0px 20px rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 5px;
+    height: 1rem;
+    background-color:rgb(255, 255, 255);
+}
+
+.dot{
+    z-index: 1000;
+    width: 6px;
+    margin-right: 5%;
+    height: 6px;
+    background-color: red;
+    border-radius: 50px;
+}
