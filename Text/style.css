@@ -88,6 +88,16 @@ p{
     border-radius: 50px;
     background-color: blue;
 }
+#log{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    height: 60px;
+    border-radius: 50px;
+    background-color:#e34c26;
+}
 
 #logo1{
     width: 60px;
