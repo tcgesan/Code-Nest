@@ -144,6 +144,18 @@ p{
     border-radius: 50px;
     background-color:#0141ff;
 }
+  
+.logo3{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    z-index: 1;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 50px;
+}
   .wave{
     position: absolute;
     width: 540px;
