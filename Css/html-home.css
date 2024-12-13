@@ -22,6 +22,7 @@ body{
     padding-top: 10%;
     font-family: poopins;
     width: 90%;
+    font-weight: bold;
     font-size: clamp(20px,5vw,48px);
     height: 5rem;
 }
@@ -29,11 +30,13 @@ body{
 .progress{
     width: 40%;
     height: 3rem;
+    margin-top: 3%;
+    box-shadow: 0px 0px 10px silver;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 .sub{
-    width: 25%;
+    width: 30%;
     z-index: 1000;
     height: 3rem;
     border-radius: 5px;
@@ -41,8 +44,7 @@ body{
 }
 
 .ground{
-    padding: 5%;
-    width:90%;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +54,7 @@ body{
 }
 
 .bgg{
-    width: 95%;
+    width: 100%;
     border-radius: 10px;
     height: auto;
     padding-bottom: 10%;
@@ -62,7 +64,7 @@ body{
 .intro{
     width: 30%;
     display: flex;
-    color: rgb(100, 97, 97);
+    color: rgb(255, 255, 255);
     font-family: poopins;
     justify-content: center;
     align-items: center;
@@ -73,13 +75,30 @@ body{
     margin-left: 10%;
     border-radius: 5px;
     height: 1rem;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+}
+
+.title20{
+    width: 60%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: poopins;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 6%;
+    box-shadow: 0px 0px 20px rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-left: 7%;
+    border-radius: 5px;
+    height: 1rem;
+    background-color:rgb(0, 0, 0);
 }
 
 .comment{
     width:48%;
     display: flex;
-    color: rgb(100, 97, 97);
+    color: rgb(255, 255, 255);
     font-family: poopins;
     justify-content: center;
     align-items: center;
@@ -90,13 +109,13 @@ body{
     margin-left: 10%;
     border-radius: 5px;
     height: 1rem;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
 }
 
 .tag{
     width: 32%;
     display: flex;
-    color: rgb(100, 97, 97);
+    color: rgb(255, 255, 255);
     font-family: poopins;
     justify-content: center;
     align-items: center;
@@ -107,13 +126,13 @@ body{
     margin-left: 10%;
     border-radius: 5px;
     height: 1rem;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
 }
 
 .file{
     width: 33%;
     display: flex;
-    color: rgb(100, 97, 97);
+    color: rgb(255, 255, 255);
     font-family: poopins;
     justify-content: center;
     align-items: center;
@@ -124,7 +143,7 @@ body{
     margin-left: 10%;
     border-radius: 5px;
     height: 1rem;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
 }
 
 .dot{
@@ -134,4 +153,36 @@ body{
     height: 6px;
     background-color: red;
     border-radius: 50px;
+}
+
+.dot1{
+    z-index: 1000;
+    width: 6px;
+    margin-right: 5%;
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+@font-face {
+    font-family: kp;
+    src: url(../Text/font/kalpurush.ttf);
+}
+p{
+    width: 80%;
+    align-self: center;
+    margin-left: 5%;
+    box-shadow: 0px 0px 10px silver;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin-top: 5%;
+border-radius: 10px;
+    font-family: ip;
+    padding: 20px;
+}
+
+.photo{
+    width: 50px;
+    height: 50px;
+    background-image: url(../Photo/HtmlEditor.png);
+    background-size: cover;
 }
