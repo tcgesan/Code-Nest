@@ -98,10 +98,10 @@ p{
 .e-card {
     margin: 100px auto;
     background: transparent;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.55);
     position: relative;
-    width: 240px;
-    height: 330px;
+    width: 280px;
+    height: 350px;
     font-family: op;
     border-radius: 16px;
     overflow: hidden;
@@ -124,37 +124,36 @@ p{
     height: 60px;
     z-index: 1;
     color: white;
-    box-shadow: 0px 0px 15px white;
     /* border: 1px solid white; */
     font-size: 1.2rem;
     border-radius: 50px;
     background-color:#e34c26;
 }
-  
+  .border{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    border-radius: 50px;
+    background-color: white;
+  }
 .logo2{
     width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-    box-shadow: 0px 0px 15px white;
     z-index: 1;
     color: white;
+    border: 5px solid white;
     font-size: 1.2rem;
     border-radius: 50px;
     background-color:#0141ff;
 }
-  
 .logo3{
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    z-index: 1;
-    color: white;
-    font-size: 1.2rem;
-    border-radius: 50px;
+ z-index: 1;
 }
   .wave{
     position: absolute;
@@ -165,7 +164,7 @@ p{
     top: 0;
     margin-left: -50%;
     margin-top: -70%;
-    background: linear-gradient(744deg,#af40ff,#5b42f3 60%,#00ddeb);
+    background: linear-gradient(744deg,#9500ff,#2100f777 60%,#6df5ff);
   }
   
   .icon {
@@ -248,3 +247,6 @@ p{
   }
 
 
+
+
+  
