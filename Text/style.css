@@ -35,6 +35,9 @@ h1{
     font-family: op;
     src: url(font/Poppins-Regular.ttf);
 }
+#opp{
+  font-size: .9rem;
+}
 p{
     font-family: op;
     margin-top: 30%;

@@ -5,6 +5,7 @@
 }
 body{
     background-color:aliceblue;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -17,6 +18,7 @@ body{
     font-family: poopins;
     src: url(../Text/font/Poppins-Regular.ttf);
 }
+
 .level{
     padding-left: 5%;
     padding-top: 10%;
@@ -120,9 +122,55 @@ body{
     height: 1rem;
     background-color:rgb(0, 0, 0);
 }
+#font{
+    font-family: poopins;
+}
+.basic{
+    width:30%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: poopins;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    box-shadow: 0px 0px 20px rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 5px;
+    height: 1rem;
+    background-color:rgb(0, 0, 0);
+}
+
+#tags{
+    margin-left: 32%;
+    padding-bottom: 5%;
+}
+
+#tags2{
+    margin-left: 28%;
+    padding-bottom: 5%;
+}
 
 .common{
     width:55%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: poopins;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    box-shadow: 0px 0px 20px rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 5px;
+    height: 1rem;
+    background-color:rgb(0, 0, 0);
+}
+
+.kothai{
+    width:65%;
     display: flex;
     color: rgb(255, 255, 255);
     font-family: poopins;
@@ -232,22 +280,30 @@ border-radius: 10px;
 }
 
 .tg{
-    padding: 3%;
+    padding: 4%;
     margin-top: 5%;
-    margin-left: 5%;
-    width: 85%;
+    width: 100%;
     border-radius: 5px;
-    font-size: .8rem;
+    font-size: 1rem;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: poopins;
-    color:rgb(255, 217, 0);
-    /* color: whitesmoke; */
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
 }
 
+.lvl{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50px;
+}
 
 .p{
     width: 80%;
@@ -261,3 +317,4 @@ border-radius: 10px;
     font-family: ip;
     padding: 20px;
 }
+
