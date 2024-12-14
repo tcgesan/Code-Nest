@@ -9,7 +9,7 @@
     position: fixed;
     top: 0;
     z-index: 1000;
-    height: 5rem;
+    height: 4rem;
     justify-content: center;
     display: flex;
     overflow-x: hidden;
@@ -24,7 +24,7 @@ body{
 }
 
 h1{
-    font-size: clamp(30px,5vw,48px);
+    font-size: clamp(24px,5vw,48px);
     color: white;
     top: 0;
     font-family: op;
@@ -39,11 +39,13 @@ p{
     font-family: op;
     margin-top: 30%;
     padding: 5%;
-    height: 2rem;
-    border-top-right-radius: 20px;
+    height: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
-    background-color: gold;
-    font-size: 20px;
+    background-color:white;
+    font-size: 1rem;
 }
 .main{
     margin-top: 7%;
@@ -96,11 +98,11 @@ p{
 
 /* From Uiverse.io by MikeAndrewDesigner */ 
 .e-card {
-    margin: 100px auto;
+    margin: 8vh auto;
     background: transparent;
     box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.55);
     position: relative;
-    width: 280px;
+    width: 250px;
     height: 350px;
     font-family: op;
     border-radius: 16px;
@@ -249,4 +251,6 @@ p{
 
 
 
-  
+#pp{
+  font-size: 1rem;
+}
