@@ -20,6 +20,7 @@ body{
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
+    animation: fade .4s ease 1;
     background-repeat: no-repeat;
 }
 
@@ -252,8 +253,18 @@ p{
   }
 
 
-
-
 #pp{
   font-size: 1rem;
+}
+
+
+
+
+@keyframes fade {
+  from{
+ opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
