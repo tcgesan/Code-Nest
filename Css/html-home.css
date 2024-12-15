@@ -281,7 +281,6 @@ border-radius: 10px;
 }
 
 .tg{
-    padding: 4%;
     margin-top: 5%;
     width: 100%;
     border-radius: 5px;
@@ -327,4 +326,13 @@ border-radius: 10px;
     to{
       opacity: 1;
     }
+  }
+
+  button{
+    background-color: aliceblue;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: none;
+    user-select: none;
+    font-size: 1.2rem;
   }
