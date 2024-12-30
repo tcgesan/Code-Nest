@@ -12,16 +12,16 @@ color: white;
 
 }
 .box{
-  width: 100%;
-  position: fixed;
-  top: 0;
-  justify-content: space-evenly;
-  z-index: 1000;
-  height: 4rem;
-  display: flex;
-  overflow-x: hidden;
-  align-items: center;
-  background-color: black;
+width: 100%;
+color: white;
+font-size: clamp(22px,5vw,48px);
+height: 2.4rem;
+display: flex;
+justify-content: center;
+  font-family: op;
+  font-weight: bold;
+align-items: center;
+background-color: black;
 }
 body{
   background-position: center;
@@ -31,15 +31,40 @@ body{
   background-repeat: no-repeat;
 }
 
+.img-box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h6{
+  width: 75%;
+  font-family: op;
+  font-weight: normal;
+  border-radius: 50px;
+  font-size: .9rem;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 3.3rem;
+}
 h1{
-  font-size: clamp(24px,5vw,48px);
+font-weight: bold;
   color: white;
-  top: 0;
-  margin-left: -10%;
   font-family: op;
   user-select: none;
 }
-
+h2{
+  font-size: 1.5rem;
+  position: absolute;
+  margin-top: 10%;
+}
 @font-face {
   font-family: op;
   src: url(font/Poppins-Regular.ttf);
@@ -49,9 +74,9 @@ font-size: .9rem;
 }
 p{
   font-family: op;
-  margin-top: 30%;
+  margin-top: 10%;
   padding: 5%;
-  height: .4rem;
+  height: .2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,3 +301,45 @@ to{
   opacity: 1;
 }
 }
+
+
+
+
+footer{
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.about{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  /* background-color: blue; */
+
+}
+.about-content{
+  border-radius: 5px;
+  width: 80%;
+  margin-top: -10%;
+  height: 10rem;
+  display: flex;
+  background-color: aliceblue;
+  /* border: 3px dashed blue; */
+  transition-duration: 0.3s;
+  justify-content: center;
+  align-items: center;
+}
+.about-content:active{
+box-shadow: 0px 0px 10px silver;
+}
+
+
+
+
+
