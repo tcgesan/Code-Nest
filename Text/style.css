@@ -503,9 +503,9 @@ box-shadow: 0px 0px 10px silver;
 .sub-list{
   width: 50%;
   font-family: op;
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: bold;
-  color: white;
+  color: rgb(91, 173, 255);
   margin-top: 7%;
   border-radius: 50px;
   height: 3.2rem;
@@ -517,22 +517,10 @@ box-shadow: 0px 0px 10px silver;
   display: flex;
 }
 
-.outer-div {
-width: 100%;
-height: auto;
-margin-top: 5%;
-display: flex;
-justify-content: center;
-align-items: center;
-/* background-color: black; */
-color: white;
-}
 
 
-.inner-div {
-  width: 90%;
-  background-color: lavender;
-  border-radius: 10px;
-  margin: 10px;
-height: 6rem;
-}
+
+
+
+
+
